@@ -35,7 +35,7 @@ onValue(tasksListInDB, function(snapshot) {
             appendItemToTasksListEl(currentItem)
         }    
     } else {
-        tasksListEl.innerHTML = "Add your tasks for today. Tip: Double Click a completed task to remove it!"
+        tasksListEl.innerHTML = "Tip: Double Click a completed task to remove it!"
     }
 })
 
